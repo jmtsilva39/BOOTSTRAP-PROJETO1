@@ -1,0 +1,86 @@
+/*Estilos Gerais */
+*{
+    color:#25282E;
+}
+
+a,i{
+    text-decoration: none;
+}
+
+.secondary-color{
+    color: #555;
+}
+
+.center-image{
+    background-size: cover;
+    background-position: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #25282E;
+    color: #FFF;
+    border-radius:0;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #FFF;
+}
+
+
+/*HEADER*/
+
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+#header p{
+    margin-bottom: 0;
+}
+
+#logo-container{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width:50x;
+    margin-right: 50px;
+}
+/* NAVBAR*/
+
+#navbar{
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#navbar a {
+    width: 80px;
+    color: #444;
+}
+
+#navbar a:hover{
+    color: #0a399e;
+}
+
+/* MAIN IMAGE*/
+
+.main-image{
+    height: 400px;
+    background-image: url('./img/sae_limpeza.jpg');
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info{
+    background-color: #FFF;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+.teste{
+    border: 1px solid red;
+}
